@@ -14,6 +14,4 @@ The iOS keyboard running
 - Clone this repo on your machine (must be a MacOS machine with XCode)
 - This should be a valid XCode Project that you can now build
 
-### Why isn't this on the App Store
-- I don't know, ever asked Apple why they charge *$100 every year* for an app to be on the App Store?
-- I definitely knew that before making the app, and the app was always meant to be released via source code on GitHub
+[Privacy Policy](privacy-policy.md)

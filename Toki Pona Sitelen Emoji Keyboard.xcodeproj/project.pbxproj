@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ED6F79D248A058700B2184F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED6F79C248A058700B2184F /* Assets.xcassets */; };
 		663A967F245A7827002699DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A967E245A7827002699DA /* AppDelegate.swift */; };
 		663A9681245A7827002699DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A9680245A7827002699DA /* ViewController.swift */; };
 		663A9684245A7828002699DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663A9682245A7828002699DA /* Main.storyboard */; };
-		663A9686245A7835002699DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663A9685245A7835002699DA /* Assets.xcassets */; };
 		663A9689245A7835002699DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663A9687245A7835002699DA /* LaunchScreen.storyboard */; };
 		663A96C6245D476D002699DA /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A96C5245D476D002699DA /* KeyboardViewController.swift */; };
 		663A96CA245D476D002699DA /* Toki Pona Emoji Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 663A96C3245D476D002699DA /* Toki Pona Emoji Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -43,11 +43,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0ED6F79C248A058700B2184F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		663A967B245A7827002699DA /* Toki Pona Sitelen Emoji Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toki Pona Sitelen Emoji Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		663A967E245A7827002699DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		663A9680245A7827002699DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		663A9683245A7828002699DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		663A9685245A7835002699DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		663A9688245A7835002699DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		663A968A245A7835002699DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		663A96C3245D476D002699DA /* Toki Pona Emoji Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Toki Pona Emoji Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,9 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				663A967E245A7827002699DA /* AppDelegate.swift */,
+				0ED6F79C248A058700B2184F /* Assets.xcassets */,
 				663A9680245A7827002699DA /* ViewController.swift */,
 				663A9682245A7828002699DA /* Main.storyboard */,
-				663A9685245A7835002699DA /* Assets.xcassets */,
 				663A9687245A7835002699DA /* LaunchScreen.storyboard */,
 				663A968A245A7835002699DA /* Info.plist */,
 			);
@@ -164,7 +164,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "Awara Badal Developments";
+				ORGANIZATIONNAME = "Jan Tan";
 				TargetAttributes = {
 					663A967A245A7827002699DA = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -199,7 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				663A9689245A7835002699DA /* LaunchScreen.storyboard in Resources */,
-				663A9686245A7835002699DA /* Assets.xcassets in Resources */,
+				0ED6F79D248A058700B2184F /* Assets.xcassets in Resources */,
 				663A9684245A7828002699DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,12 +385,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B55H2QQJ34;
 				INFOPLIST_FILE = "Toki Pona Sitelen Emoji Keyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Awara-Badal-Developments.Toki-Pona-Sitelen-Emoji-Keyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jan-Tan.Toki-Pona-Sitelen-Emoji-Keyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -403,12 +404,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B55H2QQJ34;
 				INFOPLIST_FILE = "Toki Pona Sitelen Emoji Keyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Awara-Badal-Developments.Toki-Pona-Sitelen-Emoji-Keyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jan-Tan.Toki-Pona-Sitelen-Emoji-Keyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -419,13 +421,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B55H2QQJ34;
 				INFOPLIST_FILE = "Toki Pona Emoji Keyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Awara-Badal-Developments.Toki-Pona-Sitelen-Emoji-Keyboard.Toki-Pona-Emoji-Keyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jan-Tan.Toki-Pona-Sitelen-Emoji-Keyboard.Toki-Pona-Emoji-Keyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -437,13 +440,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B55H2QQJ34;
 				INFOPLIST_FILE = "Toki Pona Emoji Keyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Awara-Badal-Developments.Toki-Pona-Sitelen-Emoji-Keyboard.Toki-Pona-Emoji-Keyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jan-Tan.Toki-Pona-Sitelen-Emoji-Keyboard.Toki-Pona-Emoji-Keyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
